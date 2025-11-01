@@ -137,8 +137,6 @@ In a design lab, the floor is modelled as a 2D square grid of size N × M. An ir
 
 A typical top view of the grid with rod and cable is shown below.
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@721eb7df:image1.png][image1]
-
 * where'R' \- represents a rod fixed to the floor.  
 * 'C' \- represents a cable laid over or under the rods.  
 * '.' \- represents empty space.
@@ -226,8 +224,6 @@ Explanation
 
 The below image depicts the above input.
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@721eb7df:image2.png][image2]
-
 The image demonstrates that the special power may be applied to the rod cells positioned in columns 7 and 11\. Activation at these specific locations elevates the cable above the rods, effectively removing any obstructions.
 
 Example 3
@@ -257,8 +253,6 @@ Ouput
 Explanation
 
 The below image depicts the above input.
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@721eb7df:image3.png][image3]
 
 In this scenario, no power is required, as the cable is not coiled around the rod and can be easily removed by holding both ends and pulling them simultaneously.
 
@@ -336,8 +330,6 @@ Explanation
 
 The given input is visualized below.
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@57a4d5ee:image1.png][image4]
-
 The black lines indicate sliders while the red dot is the position from where the ball is dropped.
 
 * The ball starts at (5, 15\) with 21 units of energy.  
@@ -376,8 +368,6 @@ Explanation
 
 The given input is visualized below.
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@57a4d5ee:image2.png][image5]
-
 The black lines indicate sliders while the red dot is the position from where the ball is dropped.
 
 * The ball starts at (2, 7\) with 5 units of energy.  
@@ -395,8 +385,6 @@ The city zoo is currently undergoing significant renovations. To improve both vi
 The zoo is organized as a network of enclosures connected by designated paths, with no additional space available. Animals cannot be swapped between enclosures because they would disrupt each other if they used the same path. To resolve this, the zookeeper developed a rotational strategy known as the "zoobin approach," where all animals are moved simultaneously to their subsequent locations. This method ensures that each animal arrives at its intended enclosure without crossing paths or creating confusion.
 
 For example, consider,
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@1a15b789:image1.png][image6] ![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@1a15b789:image2.png][image7]
 
 Assume the nodes \[1 to 5\] as enclosures and edges connecting them as path. zoobin approach involves moving the animals from enclosures1 to 3, 3 to 4, 4 to 2 and 2 to 1 simultaneously. A single rotation is made to achieve this.
 
@@ -462,8 +450,6 @@ Explanation
 
 Assume the zoo layout as the left one below. Initially we will make the round move on 1,2,4 and 5 loop. The resultant layout will be the middle layout below. Next, we will make the move on 1,5,3 and 2 loop resulting in the right layout which is the resultant layout.
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@1a15b789:image3.png][image8]
-
 Thus 2 rotations are needed, that's the minimum hence print the same.
 
 Example2
@@ -508,8 +494,6 @@ Explanation
 
 The layout below on left represents the given input. Moving animals on the outer layer results 3 times will result in the expected layout on right.
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@1a15b789:image4.png][image9]
-
 # Box Game
 
 ## Box Game
@@ -530,8 +514,6 @@ Ved must now figure out:
 Can you help Ved solve this Rubik's Cube puzzle with a twist?
 
 The Rubik Cube schematics are described below
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image1.jpeg][image10]![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image2.png][image11] ![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image3.jpeg][image12]
 
 Faces of the cubes are described according to the numbers.
 
@@ -653,10 +635,6 @@ front 1 up
 
 Explanation
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image4.png][image13]
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image5.png][image14]
-
 The required rotations of the cube to solve one side are described in the pictures above. The third instruction (front 1 up) is the extra instruction which leads one side of the cube unsolved. Also, the cube is not faulty, therefore, the answer is: "front 1 up"
 
 Example 2
@@ -721,12 +699,6 @@ top 2 down
 
 Explanation
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image6.png][image15]
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image7.png][image16]
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image8.png][image17]
-
 From the images above, one unit of 'Y' color is manipulated with one unit of 'G' color. After correcting the manipulation and executing the instructions, we can say that the instruction 'top 2 down' is an extra instruction causing one side of the cube being unsolved. Therefore, the answer is:
 
 Faulty
@@ -785,8 +757,6 @@ Not Possible
 
 Explanation
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image9.png][image18]
-
 It can be analyzed the cube is not faulty and executing any of the instructions does not lead to solve one of the sides. Therefore, the answer is: "Not Possible"
 
 # Solve The Expression
@@ -800,8 +770,7 @@ Neena, a third-year engineering student, is enthusiastic about the competitive p
 In this task, numerals (0-9), bitwise operators, and brackets are represented as 7-segment display patterns. The entire expression is presented in this format. The objective is to convert the 7-segment representations into binary strings, evaluate the resulting expression, and return the final numerical result.
 
 Note: The standard configuration for a 7-segment display within a 3x3 matrix, where all LEDs are illuminated, is shown below. Please refer to the following representation:
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@4a1e3ac1:image1.png][image19]Figure 1: All LEDs illuminated, depicted 3x3 structure
+Figure 1: All LEDs illuminated, depicted 3x3 structure
 
 The question requires that the following steps be taken to arrive at a solution:
 
@@ -812,8 +781,7 @@ The question requires that the following steps be taken to arrive at a solution:
      * 0 for a segment that is OFF.  
    * This forms the binary representation of the given symbol.  
    * Let us see another digit represented in LED as well as its corresponding binary format
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@4a1e3ac1:image2.png][image20]Figure 2: LED denoting the digit 2
+]Figure 2: LED denoting the digit 2
 
 * For multi-digit numbers, concatenate the binary representations of each digit from left to right.  
 1. Evaluate the expression:  
@@ -883,8 +851,6 @@ Explanation
 
 The input is as follows:
 
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@4a1e3ac1:image3.png][image21]
-
 The required expression to be solve is: 64 && 91
 
 where '&&'is Logical AND
@@ -926,8 +892,6 @@ Output
 Explanation
 
 The input is as follows:
-
-![com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@4a1e3ac1:image4.png][image22]
 
 The required expression to solve is: (1 || 2 || 7\) && 2
 
